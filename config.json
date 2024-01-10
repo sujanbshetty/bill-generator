@@ -1,0 +1,15 @@
+{
+    "name": "sujan",
+    "prices": [
+        1350,
+        1500,
+        1800,
+        2000
+    ],
+    "receiptPerMonth": 5,
+    "startYear": 2023,
+    "endYear": 2023,
+    "startMonth": 4,
+    "endMonth": 12,
+    "vehicleNumber": "KA03 KU5247"
+}
