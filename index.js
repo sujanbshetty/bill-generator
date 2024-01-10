@@ -3,7 +3,8 @@ const {
     Paragraph,
     patchDocument,
     PatchType,
-    TextRun
+    TextRun,
+    AlignmentType
 } = require('docx');
 const path = require('path');
 const config = require("./config.json");
