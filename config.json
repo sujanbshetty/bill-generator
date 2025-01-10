@@ -1,16 +1,12 @@
 {
-    "name": "telephone_bills_basava",
+    "name": "telephone_bills_akhil_jan_2024",
     "prices": [
-        1850,
-        1723,
-        1655,
-        2022,
-        1800,
-        1659
+        3800,
+        3700
     ],
     "receiptPerMonth": 1,
-    "startYear": 2023,
-    "endYear": 2023,
+    "startYear": 2024,
+    "endYear": 2024,
     "startMonth": 4,
     "endMonth": 12,
     "vehicleNumber": "KA03 KU5247"
