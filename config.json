@@ -1,15 +1,15 @@
 {
-    "name": "sujan",
+    "name": "akhil",
     "prices": [
-        1350,
-        1500,
-        1800,
-        2000
+        2350,
+        2500,
+        2800,
+        3000
     ],
-    "receiptPerMonth": 5,
-    "startYear": 2023,
-    "endYear": 2023,
-    "startMonth": 4,
-    "endMonth": 12,
-    "vehicleNumber": "KA03 KU5247"
+    "receiptPerMonth": 4,
+    "startYear": 2026,
+    "endYear": 2026,
+    "startMonth": 1,
+    "endMonth": 3,
+    "vehicleNumber": ""
 }
