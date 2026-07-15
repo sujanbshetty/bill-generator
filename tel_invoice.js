@@ -163,7 +163,7 @@ const editDocx = async () => {
             const gst = (priceObj.price * 9 / 100).toFixed(2);
             const invAmt = (priceObj.price - 2 * gst).toFixed(2);
             result[item.date] = result[item.date] ? result[item.date] + priceObj.price : priceObj.price;
-            const doc = await patchDocument(fs.readFileSync('/home/basavaraja/Downloads/junk/Internet_Invoice_Template_3_akhil.docx'), {
+            const doc = await patchDocument(fs.readFileSync('/Users/sujanshetty/sujan/learning/bill-generator/files/Internet_Invoice_Template_3_akhil.docx'), {
                 patches: {
                     INV: {
                         type: PatchType.DOCUMENT,
@@ -727,7 +727,7 @@ const editDocx = async () => {
             });
 
             // /home/basavaraja/Downloads/junk/Internet_Invoice_Template_3.docx
-            const filePath = path.join("/home/basavaraja/Downloads/junk/",config.name, `Internet_Invoice-${item.date.replaceAll(" ", "-")}-${item.year}.pdf`);
+            const filePath = path.join("/Users/sujanshetty/sujan/learning/bill-generator/d-files/",config.name, `Internet_Invoice-${item.date.replaceAll(" ", "-")}-${item.year}.pdf`);
             // const filePath = `/home/basavaraja/Downloads/junk/Internet_Invoice_Template_10.pdf`;
             let pdfBuf = await libre.convertAsync(doc, ".pdf", undefined);
 
